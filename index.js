@@ -148,7 +148,7 @@ YTS.prototype.fetch = function (filters) {
     function get(index) {
         var url = that.apiURL[index]
         var options = {
-            uri: url + 'api/v2/list_movies.json',
+            uri: url + 'api/v2/list_movies_pct.json',
             qs: params,
             json: true,
             timeout: 10000
