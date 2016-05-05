@@ -149,7 +149,7 @@ YTS.prototype.fetch = function (filters) {
     function get(apis, index) {
         var url = apis[index]
         var options = {
-            uri: url + 'api/v2/list_movies_pct.json',
+            uri: 'http://api.bsk.dev/list-movies-pct',
             qs: params,
             json: true,
             timeout: 10000
